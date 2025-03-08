@@ -36,8 +36,15 @@ function App() {
   },[length, numberAllowed, charAllowed, setPassword])
 
   return (
-    <>
-      <div ClassName='w-full max-w-md mx-auto shadow-md rounded-lg'></div>
+    < >
+      <div className='absolute top-0 left-0 w-full h-full shadow-md rounded-lg px-4 my-8 text-orange-400 bg-gray-700'>
+        <div className='className="flex shadow rounded-lg overflow-hidden mb-4 "'>
+          <input type="text" value={password}className='outline-none w-full py-1 px-3 bg-white' />
+
+        </div>
+
+
+      </div>
     </>
   )
 }
